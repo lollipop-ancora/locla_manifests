@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="LP-ancora/local_manifests" path="vendor/extra" />
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
 
-  <project name="LP-ancora/android_device_samsung_ancora" path="device/samsung/ancora" revision="cm-12" />
-  <project name="LP-ancora/android_vendor_samsung_ancora" path="vendor/samsung/ancora" revision="cm-12.0" />
-  <project name="LP-ancora/samsung-kernel-msm7x30" path="kernel/samsung/msm7x30-common" revision="cm-12.0" />
+  <project name="LP-ancora/local_manifests" remote="private" path="vendor/extra" />
+
+  <project name="LP-ancora/android_device_samsung_ancora" path="device/samsung/ancora" remote="private" revision="cm-12.0" />
+  <project name="LP-ancora/android_vendor_samsung_ancora" path="vendor/samsung/ancora" remote="private" revision="cm-12.0" />
+  <project name="LP-ancora/samsung-kernel-msm7x30" path="kernel/samsung/msm7x30-common" remote="private" revision="cm-12.0" />
   
-  <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" revision="cm-12.0" />
+  <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" remote="private"  revision="cm-12.0" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
-  <project name="LP-ancora/android_frameworks_native" path="frameworks/native" revision="cm-12.0" />
+  <project name="LP-ancora/android_frameworks_native" path="frameworks/native" remote="private" revision="cm-12.0" />
 
-  <project name="LegacyXperia/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" revision="cm-12.0-caf-7x30" />
-  <project name="LegacyXperia/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" revision="cm-12.0-caf-legacy" />
-  <project name="LegacyXperia/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" revision="cm-12.0-caf-legacy" />
+  <project name="LegacyXperia/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" remote="private" revision="cm-12.0-caf-7x30" />
+  <project name="LegacyXperia/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" remote="private" revision="cm-12.0-caf-legacy" />
+  <project name="LegacyXperia/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" remote="private" revision="cm-12.0-caf-legacy" />
 
 </manifest>

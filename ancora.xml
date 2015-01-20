@@ -3,13 +3,10 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <project name="LP-ancora/local_manifests" remote="private" path="vendor/extra" />
-
   <project name="LP-ancora/android_device_samsung_ancora" path="device/samsung/ancora" remote="private" revision="cm-12.0" />
   <project name="LP-ancora/android_vendor_samsung_ancora" path="vendor/samsung/ancora" remote="private" revision="cm-12.0" />
   <project name="LP-ancora/samsung-kernel-msm7x30" path="kernel/samsung/msm7x30-common" remote="private" revision="cm-12.0" />
   
-  <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" remote="private"  revision="cm-12.0" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <project name="LP-ancora/android_frameworks_native" path="frameworks/native" remote="private" revision="cm-12.0" />
 

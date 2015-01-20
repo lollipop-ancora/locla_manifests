@@ -9,6 +9,9 @@
   
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <project name="LP-ancora/android_frameworks_native" path="frameworks/native" remote="private" revision="cm-12.0" />
+  
+  <remove-project name="CyanogenMod/android_bionic" />
+  <project name="LP-ancora/android_bionic" path="bionic" remote="private" revision="cm-12.0" />
 
   <project name="LegacyXperia/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" remote="private" revision="cm-12.0-caf-7x30" />
   <project name="LegacyXperia/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" remote="private" revision="cm-12.0-caf-legacy" />

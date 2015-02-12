@@ -3,18 +3,24 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <project name="LP-ancora/android_device_samsung_ancora" path="device/samsung/ancora" remote="private" revision="cm-12.0" />
-  <project name="LP-ancora/android_vendor_samsung_ancora" path="vendor/samsung/ancora" remote="private" revision="cm-12.0" />
-  <project name="LP-ancora/samsung-kernel-msm7x30" path="kernel/samsung/msm7x30-common" remote="private" revision="cm-12.0" />
+  <project name="PA-LP/android_device_samsung_ancora" path="device/samsung/ancora" remote="private" revision="cm-12.0" />
+  <project name="PA-LP/android_vendor_samsung_ancora" path="vendor/samsung/ancora" remote="private" revision="cm-12.0" />
+  <project name="PA-LP/samsung-kernel-msm7x30" path="kernel/samsung/msm7x30-common" remote="private" revision="cm-12.0" />
   
-  <remove-project name="CyanogenMod/android_frameworks_native" />
-  <project name="LP-ancora/android_frameworks_native" path="frameworks/native" remote="private" revision="cm-12.0" />
+  <remove-project name="AOSPA-Legacy/android_frameworks_native" />
+  <project name="PA-LP/android_frameworks_native" path="frameworks/native" remote="private" revision="lollipop" />
   
-  <remove-project name="CyanogenMod/android_bionic" />
-  <project name="LP-ancora/android_bionic" path="bionic" remote="private" revision="cm-12.0" />
+  <remove-project name="AOSPA-Legacy/android_frameworks_base" />
+  <project name="PA-LP/android_frameworks_base" path="frameworks/base" remote="private" revision="lollipop" />
+  
+  <remove-project name="AOSPA-Legacy/android_bionic" />
+  <project name="PA-LP/android_bionic" path="bionic" remote="private" revision="lollipop" />
 
-  <project name="LegacyXperia/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" remote="private" revision="cm-12.0-caf-7x30" />
-  <project name="LegacyXperia/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" remote="private" revision="cm-12.0-caf-legacy" />
-  <project name="LegacyXperia/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" remote="private" revision="cm-12.0-caf-legacy" />
-
+  <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" remote="private" revision="cm-12.0-caf-7x30" />
+  <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" remote="private" revision="cm-12.0-caf-legacy" />
+  <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" remote="private" revision="cm-12.0-caf-legacy" />
+  
+  <remove-project name="AOSPA-Legacy/android_vendor_pa" />
+  <project path="vendor/pa" name="PA-LP/android_vendor_pa" remote="private" revision="lollipop" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
 </manifest>

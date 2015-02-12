@@ -23,4 +23,6 @@
   <remove-project name="AOSPA-Legacy/android_vendor_pa" />
   <project path="vendor/pa" name="PA-LP/android_vendor_pa" remote="private" revision="lollipop" >
     <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
+  
 </manifest>

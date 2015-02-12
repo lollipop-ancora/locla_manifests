@@ -2,7 +2,18 @@
 <manifest>
   <remote  name="private"
            fetch="ssh://git@github.com" />
+  
+  <remove-project name="AOSPA-Legacy/android_build" />
+  <project path="build" name="PA-LP/android_build" remote="private" revision="lollipop" >
+     <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  
+  <remove-project name="AOSPA-Legacy/android_packages_apps_InCallUI" />
+  <remove-project name="AOSPA-Legacy/android_packages_apps_Dialer" />
 
+  <project path="packages/apps/InCallUI" name="PA-LP/android_packages_apps_InCallUI" remote="private" revision="lollipop" />
+  <project path="packages/apps/Dialer" name="PA-LP/android_packages_apps_Dialer" remote="private" revision="lollipop" />
+   
   <project name="PA-LP/android_device_samsung_ancora" path="device/samsung/ancora" remote="private" revision="cm-12.0" />
   <project name="PA-LP/android_vendor_samsung_ancora" path="vendor/samsung/ancora" remote="private" revision="cm-12.0" />
   <project name="PA-LP/samsung-kernel-msm7x30" path="kernel/samsung/msm7x30-common" remote="private" revision="cm-12.0" />

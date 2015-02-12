@@ -27,9 +27,9 @@
   <remove-project name="AOSPA-legacy/android_bionic" />
   <project name="PA-LP/android_bionic" path="bionic" remote="private" revision="lollipop" />
 
-  <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm7x30" remote="private" revision="cm-12.0-caf-7x30" />
-  <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf/msm7x30" remote="private" revision="cm-12.0-caf-legacy" />
-  <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf/msm7x30" remote="private" revision="cm-12.0-caf-legacy" />
+  <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm7x30" remote="private" revision="cm-12.0" />
+  <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf/msm7x30" remote="private" revision="cm-12.0" />
+  <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf/msm7x30" remote="private" revision="cm-12.0" />
   
   <remove-project name="AOSPA-legacy/android_vendor_pa" />
   <project path="vendor/pa" name="PA-LP/android_vendor_pa" remote="private" revision="lollipop" >

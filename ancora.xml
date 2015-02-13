@@ -10,6 +10,7 @@
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <project name="lollipop-ancora/android_frameworks_native" path="frameworks/native" remote="private" revision="cm-12.0" />
   
+  <project name="lollipop-ancora/android_packages_apps_Torch" path="packages/apps/Torch" remote="private" revision="cm-12.0" />
   <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm7x30" remote="private" revision="cm-12.0" />
   <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf/msm7x30" remote="private" revision="cm-12.0" />
   <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf/msm7x30" remote="private" revision="cm-12.0" />

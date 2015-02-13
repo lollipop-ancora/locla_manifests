@@ -22,9 +22,6 @@ cherries+=(79136)
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(81758)
 
-# SystemUI: allow devices to use a custom torch sysfs path instead of camera iface
-cherries+=(81074)
-
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
 else

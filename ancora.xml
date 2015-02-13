@@ -8,7 +8,7 @@
   <project name="lollipop-ancora/samsung-kernel-msm7x30" path="kernel/samsung/msm7x30-common" remote="private" revision="cm-12.0" />
   
   <remove-project name="CyanogenMod/android_frameworks_native" />
-  <project name="lollipop-ancora/android_frameworks_native" path="frameworks/native" remote="private" revision="lollipop" />
+  <project name="lollipop-ancora/android_frameworks_native" path="frameworks/native" remote="private" revision="cm-12.0" />
   
   <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm7x30" remote="private" revision="cm-12.0" />
   <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf/msm7x30" remote="private" revision="cm-12.0" />

@@ -3,14 +3,13 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
   
-  <project name="lollipop-ancora/android_device_samsung_ancora" path="device/samsung/ancora" remote="private" revision="cm-12.0-cyan" />
+  <project name="lollipop-ancora/android_device_samsung_ancora" path="device/samsung/ancora" remote="private" revision="cm-12.0-new" />
   <project name="lollipop-ancora/android_vendor_samsung_ancora" path="vendor/samsung/ancora" remote="private" revision="cm-12.0" />
   <project name="lollipop-ancora/samsung-kernel-msm7x30" path="kernel/samsung/msm7x30-common" remote="private" revision="cm-12.0" />
   
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <project name="lollipop-ancora/android_frameworks_native" path="frameworks/native" remote="private" revision="cm-12.0" />
   
-  <project name="lollipop-ancora/android_packages_apps_Torch" path="packages/apps/Torch" remote="private" revision="cm-12.0" />
   <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm7x30" remote="private" revision="cm-12.0" />
   <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf/msm7x30" remote="private" revision="cm-12.0" />
   <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf/msm7x30" remote="private" revision="cm-12.0" />
